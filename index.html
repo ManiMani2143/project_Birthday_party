@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Party</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="website icon" type="jpg" href="images/th (10).jpg">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="jquery-3.6.3.min.js">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <script src="gsap-docs-offline/js/libs/gsap/jquery.gsap.min.js"></script>
+  <script src="gsap-docs-offline/js/libs/gsap/TweenMax.min.js"></script>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navi navbar-default"
+    style="padding:15px; position: fixed; width: 100%; ">
+    <div class="container-fluid firstnav">
+      <a class="navbar-brand" href="#"><img src="images/logo1.jpg" alt="" height="50px" width="52px"
+          style="border-radius:48px ;"> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 " style="gap:2rem">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#galleryid">Gallery</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutid" tabindex="" aria-disabled="true">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactid" tabindex="" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="navsearchbar"
+            style="border: none;">
+          <button class="btn btn-outline-info" type="submit" style="border: none;"><i class="fa fa-search"></i></button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <section class="headbgimg" id="home">
+    <div class="container-fluid">
+      <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}">
+        <div class="col-md-6 headcontent">
+          <h1 class="headcontenth1">Birthday</h1>
+          <h2 class="headcontenth2">Party</h2>
+
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <header class="secondlayout">
+    <div class="container">
+      <div class="col-sm-12 col-md-12">
+        <h1 class="headh1">What We Do</h1>
+      </div>
+
+      <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|} headbgimgbox">
+        <div class="col-sm-12 col-md-6 headbgimgbox">
+          <img src="images/949561.png" alt="" class="headiconimg" height="110px">
+          <h3 class="headiconimgh3">Animators</h3>
+          <p class="headiconimgp">Animators can work in a variety of fields including <br> film, television, and video
+            games.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 headbgimgbox">
+
+          <img src="images/5222211.png" alt="" class="headiconimg" height="110px">
+          <h3 class="headiconimgh3">Face Painting</h3>
+          <p class="headiconimgp">Painting is the practice of applying paint, pigment, <br> color or other medium to a
+            solid surface.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 headbgimgbox">
+          <img src="images/808439.png" alt="" class="headiconimg" height="110px">
+          <h3 class="headiconimgh3">Games</h3>
+          <p class="headiconimgp">A game is a structured form of play, usually <br> undertaken for entertainment or fun.
+          </p>
+
+        </div>
+        <div class="col-sm-12 col-md-6 headbgimgbox">
+          <img src="images/1457948.png" alt="" class="headiconimg" height="110px">
+          <h3 class="headiconimgh3">Quest</h3>
+          <p class="headiconimgp">Quest Software, also known as Quest, is a <br> privately held software company.</p>
+
+        </div>
+      </div>
+    </div>
+  </header>
+  <br>
+  <section class=" profileimgbox">
+    <div class="container">
+
+      <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|} m-auto" style="padding: 50px 0px;">
+        <h1 class="text-center maincontenth1">
+          Our Team
+        </h1>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="notsetimgaes">
+              <img src="images/th (1).jpg" class="cardimg" alt="...">
+            </div>
+            <h2 class="text-center profileh2">Nicole Stone</h2>
+            <h4 class="text-center profileh4">Company Founder</h4>
+            <div class="card-body profileicon">
+              <i class="fa-brands fa-instagram fa-4x"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="notsetimgaes">
+              <img src="images/th (4).jpg" class="cardimg" alt="...">
+            </div>
+            <h2 class="text-center profileh2">Mike Perry</h2>
+            <h4 class="text-center profileh4">Animator</h4>
+            <div class="card-body  profileicon">
+              <i class="fa-brands fa-instagram fa-4x"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ">
+          <div class="card">
+            <div class="notsetimgaes">
+              <img src="images/th (3).jpg" class="cardimg" alt="...">
+            </div>
+            <h2 class="text-center profileh2">Natasa Ivanova</h2>
+            <h4 class="text-center profileh4">confectioner</h4>
+            <div class="card-body  profileicon">
+              <i class="fa-brands fa-instagram fa-4x"></i>
+            </div>
+
+
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="card">
+            <div class="notsetimgaes">
+              <img src="images/th (5).jpg" class="cardimg" alt="...">
+            </div>
+            <h2 class="text-center profileh2">Steve Hudson</h2>
+            <h4 class="text-center profileh4">ScreenWritter</h4>
+            <div class="card-body  profileicon">
+              <i class="fa-brands fa-instagram fa-4x"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="notsetimgaes">
+              <img src="images/th (7).jpg" class="cardimg" alt="...">
+            </div>
+            <h2 class="text-center profileh2">Marry Larson</h2>
+            <h4 class="text-center profileh4">Painter</h4>
+            <div class="card-body  profileicon">
+              <i class="fa-brands fa-instagram fa-4x"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 lasticon">
+          <div class="card" style="padding: 20px 0px !important;">
+            <p class="text-center iconp">While we were not the first home cleaning company in the UK, we take pride in
+              being market leaders in introducing an instant online booking system plus the facility for our customers
+              to login and control their cleaning service 24/7, 365 days a year putting you in complete control. </p>
+            <div class="card-body  profileicon" style="padding:28px;">
+              <img src="images/545682.png" height="60px" alt="">
+            </div>
+          </div>
+
+        </div>
+
+
+      </div>
+    </div>
+
+
+  </section>
+
+  <article id="galleryid">
+    <div class="container">
+      <h1 class="text-center galleryh1">Our Gallery</h1>
+      <div class="galleryrow">
+        <div class="galone">
+          <img src="images/g1.jpeg" alt="" height="265px" class="image-fluid">
+        </div>
+        <div class="galone">
+          <img src="images/g2.jpeg" alt="" height="265px" class="image-fluid">
+        </div>
+        <div class="galone">
+          <img src="images/g3.jpeg" alt="" height="265px" class="image-fluid">
+        </div>
+        <div class="galone">
+          <img src="images/g4.jpg" alt="" height="265px" width="407px">
+        </div>
+        <div class="galone">
+          <img src="images/g5.png" alt="" height="265px">
+        </div>
+        <div class="galone">
+          <img src="images/g6.jpg" alt="" height="265px">
+        </div>
+      </div>
+      <div class="col-md-12 galbtncol">
+        <button class="galbtn">View More</button>
+      </div>
+    </div>
+    </div>
+  </article>
+
+  <section class="booksec">
+    <div class="container-fluid">
+      <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}">
+        <div class="col-md-12">
+          <h1 class="text-center booksech1">Book a free consultation</h1>
+          <p class="text-center booksecp">Professional service provided by a team of experts</p>
+          <div class="col-md-12 bookbtnsec">
+            <button class="bookbtn">Call me</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <main class="secondiconsection" id="aboutid">
+    <div class="container">
+      <div class="col-sm-12 col-md-12">
+        <h1 class="headh1">What We Do</h1>
+      </div>
+
+      <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|} headbgimgbox">
+        <div class="col-sm-12 col-md-6 headbgimgbox ">
+          <img src="images/f1.png" alt="" class="headiconimg">
+          <h3 class="headiconimgh3">Professionalism</h3>
+          <p class="headiconimgp">Professionalism refers to the set of qualities, <br> behaviors, and attitudes that are
+            expect.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 headbgimgbox">
+          <img src="images/f2.png" alt="" class="headiconimg">
+          <h3 class="headiconimgh3">Individuality</h3>
+          <p class="headiconimgp">Individuality refers to the unique and distinctive <br> characteristics that define
+            each person.</p>
+        </div>
+        <div class="col-sm-12 col-md-6 headbgimgbox">
+          <img src="images/f3.png" alt="" class="headiconimg">
+          <h3 class="headiconimgh3">Individuality</h3>
+          <p class="headiconimgp">Uniqueness refers to the quality or state of <br> being one of a kind, different, or
+            distinct.</p>
+
+        </div>
+        <div class="col-sm-12 col-md-6 headbgimgbox">
+          <img src="images/f4.png" alt="" class="headiconimg">
+          <h3 class="headiconimgh3">Quality</h3>
+          <p class="headiconimgp">Quality refers to the standard or degree of <br> excellence of something It is a
+            measure.</p>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <section class="secondprofile">
+    <div class="container">
+      <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}">
+        <h1 class="headh1">What parents say</h1>
+        <div class="col-md-4 ">
+          <div class="card">
+            <div class="imgfile">
+              <div class="innerwrapper">
+
+                <img src="images/a1.jpg" class="cardimg1" alt="...">
+              </div>
+            </div>
+            <div class="profilediv">
+              <h3 class="text-center secprofileh3 mt-4">Stella Larson</h3>
+              <p class="text center secprofilep">"I really appreciated the creative party games that kept the kids
+                engaged" or "I think there could have been more healthy food options."</p>
+            </div>
+            <p class="text-center date">MONDAY, MAY 2022</p>
+
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="imgfile">
+              <div class="innerwrapper">
+
+                <img src="images/a2.jpg" class="cardimg1" alt="...">
+              </div>
+            </div>
+            <div class="profilediv">
+              <h3 class="text-center secprofileh3 mt-4">Nick Jhonson</h3>
+              <p class="text center secprofilep">"I really appreciated the creative party games that kept the kids
+                engaged" or "I think there could have been more healthy food options."</p>
+            </div>
+            <p class="text-center date">MONDAY, MAY 2022</p>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="imgfile">
+              <div class="innerwrapper">
+
+                <img src="images/a3.jpg" class="cardimg1" alt="...">
+              </div>
+            </div>
+            <div class="profilediv">
+              <h3 class="text-center secprofileh3 mt-4">Olga Ivanova</h3>
+              <p class="text center secprofilep">"I really appreciated the creative party games that kept the kids
+                engaged" or "I think there could have been more healthy food options." </p>
+            </div>
+            <p class="text-center date">MONDAY, MAY 2022</p>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="imgfile">
+              <div class="innerwrapper">
+
+                <img src="images/a4.jpg" class="cardimg1" alt="...">
+              </div>
+            </div>
+            <div class="profilediv">
+              <h3 class="text-center secprofileh3 mt-4">Paul Hudson</h3>
+              <p class="text center secprofilep">"I really appreciated the creative party games that kept the kids
+                engaged" or "I think there could have been more healthy food options." </p>
+            </div>
+            <p class="text-center date">MONDAY, MAY 2022</p>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="imgfile">
+              <div class="innerwrapper">
+
+                <img src="images/a5.jpg" class="cardimg1" alt="...">
+              </div>
+            </div>
+            <div class="profilediv">
+              <h3 class="text-center secprofileh3 mt-4">Valery Stowon</h3>
+              <p class="text center secprofilep">"I really appreciated the creative party games that kept the kids
+                engaged" or "I think there could have been more healthy food options." </p>
+            </div>
+            <p class="text-center date">MONDAY, MAY 2022</p>
+
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="imgfile">
+              <div class="innerwrapper">
+
+                <img src="images/a6.jpg" class="cardimg1" alt="...">
+              </div>
+            </div>
+            <div class="profilediv">
+              <h3 class="text-center secprofileh3 mt-4">Stella Perry</h3>
+              <p class="text center secprofilep">"I really appreciated the creative party games that kept the kids
+                engaged" or "I think there could have been more healthy food options." </p>
+            </div>
+            <p class="text-center date">MONDAY, MAY 2022</p>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <footer class="countsectionbox">
+    <div class="container countcontainer">
+      <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|} sectionrow">
+        <div class="countsection">
+          <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}">
+
+
+            <div class="col-md-6">
+              <h1 class="text-center counth1">500</h1>
+              <h3 class="text-center counth3">Holidays</h3>
+              <p class="text-center countp">We are done with 500+ Holiday projects.</p>
+              <div class="countimg">
+                <img src="images/545682.png" height="60px" alt="" style="    margin-bottom: 80px;">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h1 class="text-center counth1">140</h1>
+              <h3 class="text-center counth3">Birthdays</h3>
+              <p class="text-center countp">We are done with 140+ birthday projects.</p>
+              <div class="countimg">
+                <img src="images/545682.png" height="60px" alt="" style="    margin-bottom: 80px;">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h1 class="text-center counth1">20</h1>
+              <h3 class="text-center counth3">Victories</h3>
+              <p class="text-center countp">20+ victories achieved in our projects</p>
+              <div class="countimg">
+                <img src="images/545682.png" height="60px" alt="" style="    margin-bottom: 80px;">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h1 class="text-center counth1">56</h1>
+              <h3 class="text-center counth3">Happy Clients</h3>
+              <p class="text-center countp">We have a 56+ happy clients</p>
+              <div class="countimg">
+                <img src="images/545682.png" height="60px" alt="" style="    margin-bottom: 80px;">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <section class="headbgimg1" id="contactid">
+    <div class="container-fluid">
+      <div class="row ${1| ,row-cols-2,row-cols-3, auto,justify-content-md-center,|}">
+        <div class="col-md-6 headcontent1">
+
+          <form action="https://formspree.io/f/xeqwovzg" method="POST">
+            <div class="mb-3">
+              <h3 class="footh1">Free consultation</h3>
+              <label for="exampleFormControlInput1" class="form-label" style="font-family: 'Lobster Two';">Name</label>
+              <input type="text" class="form-control" id="Username" placeholder="Enter Your Name" onkeyup="Name()">
+              <span id="Namespan" style="color: green;"></span>
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label" style="font-family: 'Lobster Two';">Email</label>
+              <input type="email" class="form-control" id="EMail" placeholder="Enter a valid email address"
+                onkeyup="Email()">
+              <span id="Emailspan" style="color: green;"></span>
+            </div>
+            <div class="mb-3">
+              <button type="button" class="btn btn-default footbtn1" onclick="validateform()">Submit</button>
+              <p id="results4" style="color: red;"></p>
+            </div>
+          </form>
+
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script>$(window).scroll(function () {
+      $('nav').toggleClass('scrolled', $(this).scrollTop() > 50);
+    });</script>
+</body>
+
+</html>
